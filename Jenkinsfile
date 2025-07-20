@@ -19,7 +19,8 @@ pipeline {
                 // If using waitress for Windows:
                 sh 'python app.py'
                 // OR if you're just testing:
-                sh 'python -m flask run'
+                // sh 'python -m flask run'
+                
             }
         }
     }
